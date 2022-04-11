@@ -1,9 +1,235 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+    <meta charset="utf-8">
+    <meta name="myname" content="Kyren Ryan-Cook">
+    <title>Weekly QA</title>
 </head>
 <body>
+    <h1>Internet Apps - Weekly QA</h1>
+    <!--- questions section --->
+    <ol>
+        <p>
+        <li>
+            <strong>Question:</strong>
+                What are the three components of Web?
+        </li>
+        </p>
+        <p>
+            <strong>Answer:</strong>
+                HTML, CSS, JavaScript
+        </p>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                    Define version control and give one example.
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                    Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. GitHub is an example of this. 
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                    What tag is used to create the title of a web page? Give an example.
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                The title tag is used.    &lt;title&gt; this is the title &lt;/title&gt;
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                    What tag is used to create a paragraph in html? Give an example.
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                The p tag is used to create a paragraph.
+                    &lt;p&gt; this is a paragraph &lt;/p&gt;
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                    Identify the odd one from these tags:  &lt;span&gt;,  &lt;p&gt;,  &lt;a&gt;,  &lt;i&gt;  and state the reason?
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                    The odd tag is &lt;a&gt; because it is used for links rather than editing the htmls text.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                    What are the tags required to create a navigation list in HTML?
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                &lt;nav&gt;,&lt;ul&gt;, &lt;ol&gt;,&lt;dl&gt;,&lt;li&gt; 
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                What element is used to create images? Name its attributes.
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                The &lt;img&gt; element. Uses alt, height, longdesc, sizes, src, width.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                Identify the odd one from these tags: &lt;table&gt;, &lt;tr&gt;, &lt;b&gt;, &lt;td&gt;  and state the reason
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                The &lt;b&gt; element. Its the only one that isnt used for table creation.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                Give an example of color picker input. 
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                Hex Code: #2E7778 - (46,119,120) 
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                What is the use of name and value attributes? Give two examples.
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                The name attribute is used to give a name or a reference point for Javascript. The value attribute gives a numerical value or a current progress of completion.
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                Give an example of inline style. 
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                <h1 style="color:darkred; font-family: monospace ;"> Inline example </h1>
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                How would you link an external style sheet? Give example. 
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                The link tag links to an external style sheet. 
+                    Example in html code: 
+                <!--- <link rel="stylesheet" type="text/css" href="css/style.css"> --->
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                Create CSS block to center an element both horizontally and vertically that has position:absolute and has width:200px and height:200px. 
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                .cssblockexample {
+                width: 200px ;
+                height: 200px ;
+                left: 50%;
+                top: 50%;
+                position: absolute;
+                }
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                Create CSS keyframes block called "spin" that rotates an element.
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                @keyframe spin {
+                100% {transform:rotate (360);}
+                }    
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                Create CSS animation block to rotate an element that has the following properties :
+                •   class "rotate-me"
+                •   It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin"
 
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                .rotate-me {
+                animation spin 0.5s 5;
+                }
+
+                @keyframe spin {
+                100% {transform: rotate(360deg);}
+                } 
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                How would you include create an alert with string "I love JavaScript" using JavaScript?
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                alert("I love JavaScript"); 
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                How would you fade out an element with id "fade-me" after a delay of 300ms using JQuery?
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                $('#fade-me').delay(300).fadeOut();
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                How would you select all elements with class "my-class" using Javascript and Jquery? 
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                var elementsArray = document.getElementsByClassName("my-class");
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                Give an example of input field that takes phone number with format "123-456-7890"?
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                <input type="tel" id="phone" name="phone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>"
+            </p>
+        </li>
+        <li>
+            <p>
+                <strong>Question:</strong>
+                Among HTML, CSS, Javascript, JQuery, what language did you like the best? State the reason. 
+            </p>
+            <p>
+                <strong>Answer:</strong>
+                While I'm not very good at using it, I think I found CSS the most interesting over HTML. It was interesting to learn how the external sheet gets linked to and can customize how a webpage looks and is positioned over just basic html visuals.
+            </p>
+        </li>
+    </ol>
 </body>
 </html>
