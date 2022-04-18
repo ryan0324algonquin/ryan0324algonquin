@@ -201,15 +201,10 @@ th {
 /* Profile Info */
 
 .card {
-	clear: both;
 	background-color: #ffffff;
 	width:300px;
-	height:150px;
-	margin-bottom:30px;
+	height:300px;
 	text-align: center;
-	padding-top: 50px;
-	padding-left: 50px;
-	padding-right: 50px;
 	position: relative;
 	padding: 50px;
 	box-shadow: 8px 12px 12px 8px rgba(0,0,0,0.2);
@@ -227,9 +222,8 @@ th {
 
 /* Address */
 
-.side {
-	margin:0; 
-  border-spacing: 100px;
+.side { 
+  border-spacing: 200px;
   position: relative;
   float: right;
   width: 33.33333%;
@@ -282,6 +276,10 @@ th {
   position: relative;
   color: white;
 }
+
+.fa {
+
+font-size: 72px;
 
 @media (max-width: 960px) {
 	.container {
