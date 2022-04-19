@@ -65,7 +65,7 @@ table {
 
 
 h1{
-	font-family: 'Verdana';
+	font-family: 'Roboto';
 	font-size:60px;
 	color: #317873;
 	padding-left:60px;
@@ -73,7 +73,7 @@ h1{
 	
 }
 body {
-	font-family: 'Verdana';
+	font-family: 'Sans-serif';
 }
 
 h2, h4, th {
@@ -281,10 +281,13 @@ th {
 
 font-size: 72px;
 
-@media (max-width: 960px) {
+}
+
+@media (max-width: 960px)
 	.container {
 		display: block;
-	}
+}
+}
 
 	.main, .sidebar, .image, .table, .profile, .col .footer .container{
 		width: 100%;
