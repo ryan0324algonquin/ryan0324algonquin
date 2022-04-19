@@ -281,14 +281,7 @@ th {
 
 font-size: 72px;
 
-}
-
 @media (max-width: 960px)
 	.container {
 		display: block;
-}
-}
-
-	.main, .sidebar, .image, .table, .profile, .col .footer .container{
-		width: 100%;
 }
